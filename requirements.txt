@@ -1,8 +1,16 @@
+aniso8601==1.1.0
 Flask==0.10.1
+Flask-RESTful==0.3.5
+gunicorn==19.6.0
 itsdangerous==0.24
 Jinja2==2.8
 MarkupSafe==0.23
+meld3==1.0.2
 Pillow==3.2.0
 pytesseract==0.1.6
+python-dateutil==2.5.3
+pytz==2016.4
 redis==2.10.5
+six==1.10.0
+supervisor==3.3.0
 Werkzeug==0.11.5

@@ -15,9 +15,22 @@
 依赖：
 ```
 $ pip install Flask
+$ pip install flask-restful
 $ pip install redis
 $ pip install Pillow
 $ pip install pytesseract
+$ pip install gunicorn
+$ pip install supervisor
+```
+
+启动
+```
+$ cd captcha_project
+$ virtualenv captcha.env
+$ source captcha.env/bin/activate
+$ supervisord -c etc/supervisord.conf
+$ supervisorctl -c etc/supervisord.conf reload
+$ supervisorctl -c etc/supervisord.conf restart all
 ```
 
 ## tesseract-ocr (Tesseract Open Source OCR Engine)
@@ -50,3 +63,26 @@ captcha.env/local/lib/python2.7/site-packages/pytesseract/pytesseract.py
 tesseract_cmd = 'tesseract'
 ```
 
+## Flask-RESTful
+
+Flask-RESTful provides the building blocks for creating a great REST API.
+
+[https://github.com/flask-restful/flask-restful](https://github.com/flask-restful/flask-restful)
+
+[http://flask-restful.readthedocs.io/en/latest/](http://flask-restful.readthedocs.io/en/latest/)
+
+[http://www.pythondoc.com/Flask-RESTful/](http://www.pythondoc.com/Flask-RESTful/)
+
+典型的项目结构
+```
+myapi/
+    __init__.py
+    app.py          # this file contains your app and routes
+    resources/
+        __init__.py
+        foo.py      # contains logic for /Foo
+        bar.py      # contains logic for /Bar
+    common/
+        __init__.py
+        util.py     # just some common infrastructure
+```
