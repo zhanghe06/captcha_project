@@ -1,0 +1,208 @@
+[2016-06-11 15:22:34 +0000] [23341] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 15:22:34 +0000] [23341] [INFO] Listening at: http://0.0.0.0:8011 (23341)
+[2016-06-11 15:22:34 +0000] [23341] [INFO] Using worker: sync
+[2016-06-11 15:22:34 +0000] [23358] [INFO] Booting worker with pid: 23358
+[2016-06-11 15:22:34 +0000] [23360] [INFO] Booting worker with pid: 23360
+[2016-06-11 15:22:34 +0000] [23363] [INFO] Booting worker with pid: 23363
+[2016-06-11 15:22:34 +0000] [23364] [INFO] Booting worker with pid: 23364
+[2016-06-11 15:25:44 +0000] [23808] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 15:25:44 +0000] [23808] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:25:44 +0000] [23808] [ERROR] Retrying in 1 second.
+[2016-06-11 15:25:45 +0000] [23808] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:25:45 +0000] [23808] [ERROR] Retrying in 1 second.
+[2016-06-11 15:25:46 +0000] [23808] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:25:46 +0000] [23808] [ERROR] Retrying in 1 second.
+[2016-06-11 15:25:47 +0000] [23808] [INFO] Listening at: http://0.0.0.0:8011 (23808)
+[2016-06-11 15:25:47 +0000] [23808] [INFO] Using worker: sync
+[2016-06-11 15:25:47 +0000] [23826] [INFO] Booting worker with pid: 23826
+[2016-06-11 15:25:47 +0000] [23829] [INFO] Booting worker with pid: 23829
+[2016-06-11 15:25:47 +0000] [23830] [INFO] Booting worker with pid: 23830
+[2016-06-11 15:25:47 +0000] [23832] [INFO] Booting worker with pid: 23832
+[2016-06-11 15:25:58 +0000] [23869] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 15:25:58 +0000] [23869] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:25:58 +0000] [23869] [ERROR] Retrying in 1 second.
+[2016-06-11 15:25:59 +0000] [23869] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:25:59 +0000] [23869] [ERROR] Retrying in 1 second.
+[2016-06-11 15:26:00 +0000] [23869] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:26:00 +0000] [23869] [ERROR] Retrying in 1 second.
+[2016-06-11 15:26:01 +0000] [23869] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:26:01 +0000] [23869] [ERROR] Retrying in 1 second.
+[2016-06-11 15:26:02 +0000] [23869] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:26:02 +0000] [23869] [ERROR] Retrying in 1 second.
+[2016-06-11 15:26:03 +0000] [23869] [ERROR] Can't connect to ('0.0.0.0', 8011)
+[2016-06-11 15:27:14 +0000] [24077] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 15:27:14 +0000] [24077] [INFO] Listening at: http://0.0.0.0:8011 (24077)
+[2016-06-11 15:27:14 +0000] [24077] [INFO] Using worker: sync
+[2016-06-11 15:27:14 +0000] [24094] [INFO] Booting worker with pid: 24094
+[2016-06-11 15:27:14 +0000] [24095] [INFO] Booting worker with pid: 24095
+[2016-06-11 15:27:14 +0000] [24096] [INFO] Booting worker with pid: 24096
+[2016-06-11 15:27:14 +0000] [24107] [INFO] Booting worker with pid: 24107
+[2016-06-11 15:43:49 +0000] [25814] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 15:43:49 +0000] [25814] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:43:49 +0000] [25814] [ERROR] Retrying in 1 second.
+[2016-06-11 15:43:50 +0000] [25814] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:43:50 +0000] [25814] [ERROR] Retrying in 1 second.
+[2016-06-11 15:43:51 +0000] [25814] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:43:51 +0000] [25814] [ERROR] Retrying in 1 second.
+[2016-06-11 15:43:52 +0000] [25814] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:43:52 +0000] [25814] [ERROR] Retrying in 1 second.
+[2016-06-11 15:43:53 +0000] [25814] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 15:43:53 +0000] [25814] [ERROR] Retrying in 1 second.
+[2016-06-11 15:43:54 +0000] [25814] [ERROR] Can't connect to ('0.0.0.0', 8011)
+[2016-06-11 15:44:18 +0000] [25911] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 15:44:18 +0000] [25911] [INFO] Listening at: http://0.0.0.0:8011 (25911)
+[2016-06-11 15:44:18 +0000] [25911] [INFO] Using worker: sync
+[2016-06-11 15:44:18 +0000] [25929] [INFO] Booting worker with pid: 25929
+[2016-06-11 15:44:18 +0000] [25935] [INFO] Booting worker with pid: 25935
+[2016-06-11 15:44:18 +0000] [25936] [INFO] Booting worker with pid: 25936
+[2016-06-11 15:44:18 +0000] [25940] [INFO] Booting worker with pid: 25940
+[2016-06-11 16:02:07 +0000] [27564] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 16:02:07 +0000] [27564] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:02:07 +0000] [27564] [ERROR] Retrying in 1 second.
+[2016-06-11 16:02:08 +0000] [27564] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:02:08 +0000] [27564] [ERROR] Retrying in 1 second.
+[2016-06-11 16:02:09 +0000] [27564] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:02:09 +0000] [27564] [ERROR] Retrying in 1 second.
+[2016-06-11 16:02:10 +0000] [27585] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 16:02:10 +0000] [27585] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:02:10 +0000] [27585] [ERROR] Retrying in 1 second.
+[2016-06-11 16:02:11 +0000] [27585] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:02:11 +0000] [27585] [ERROR] Retrying in 1 second.
+[2016-06-11 16:02:12 +0000] [27585] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:02:12 +0000] [27585] [ERROR] Retrying in 1 second.
+[2016-06-11 16:02:13 +0000] [27585] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:02:13 +0000] [27585] [ERROR] Retrying in 1 second.
+[2016-06-11 16:02:14 +0000] [27585] [INFO] Listening at: http://0.0.0.0:8011 (27585)
+[2016-06-11 16:02:14 +0000] [27585] [INFO] Using worker: sync
+[2016-06-11 16:02:14 +0000] [27625] [INFO] Booting worker with pid: 27625
+[2016-06-11 16:02:14 +0000] [27626] [INFO] Booting worker with pid: 27626
+[2016-06-11 16:02:14 +0000] [27631] [INFO] Booting worker with pid: 27631
+[2016-06-11 16:02:14 +0000] [27632] [INFO] Booting worker with pid: 27632
+[2016-06-11 16:09:49 +0000] [28390] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 16:09:49 +0000] [28390] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:09:49 +0000] [28390] [ERROR] Retrying in 1 second.
+[2016-06-11 16:09:50 +0000] [28390] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:09:50 +0000] [28390] [ERROR] Retrying in 1 second.
+[2016-06-11 16:09:52 +0000] [28424] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 16:09:52 +0000] [28424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:09:52 +0000] [28424] [ERROR] Retrying in 1 second.
+[2016-06-11 16:09:53 +0000] [28424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:09:53 +0000] [28424] [ERROR] Retrying in 1 second.
+[2016-06-11 16:09:54 +0000] [28424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:09:54 +0000] [28424] [ERROR] Retrying in 1 second.
+[2016-06-11 16:09:55 +0000] [28424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:09:55 +0000] [28424] [ERROR] Retrying in 1 second.
+[2016-06-11 16:09:56 +0000] [28424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:09:56 +0000] [28424] [ERROR] Retrying in 1 second.
+[2016-06-11 16:09:57 +0000] [28424] [ERROR] Can't connect to ('0.0.0.0', 8011)
+[2016-06-11 16:11:01 +0000] [28556] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 16:11:01 +0000] [28556] [INFO] Listening at: http://0.0.0.0:8011 (28556)
+[2016-06-11 16:11:01 +0000] [28556] [INFO] Using worker: sync
+[2016-06-11 16:11:01 +0000] [28573] [INFO] Booting worker with pid: 28573
+[2016-06-11 16:11:01 +0000] [28576] [INFO] Booting worker with pid: 28576
+[2016-06-11 16:11:01 +0000] [28583] [INFO] Booting worker with pid: 28583
+[2016-06-11 16:11:01 +0000] [28587] [INFO] Booting worker with pid: 28587
+[2016-06-11 16:11:04 +0000] [28600] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 16:11:04 +0000] [28600] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:11:04 +0000] [28600] [ERROR] Retrying in 1 second.
+[2016-06-11 16:11:05 +0000] [28600] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:11:05 +0000] [28600] [ERROR] Retrying in 1 second.
+[2016-06-11 16:11:06 +0000] [28600] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:11:06 +0000] [28600] [ERROR] Retrying in 1 second.
+[2016-06-11 16:11:07 +0000] [28600] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:11:07 +0000] [28600] [ERROR] Retrying in 1 second.
+[2016-06-11 16:11:08 +0000] [28600] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 16:11:08 +0000] [28600] [ERROR] Retrying in 1 second.
+[2016-06-11 16:11:09 +0000] [28600] [ERROR] Can't connect to ('0.0.0.0', 8011)
+[2016-06-11 16:12:00 +0000] [28715] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 16:12:00 +0000] [28715] [INFO] Listening at: http://0.0.0.0:8011 (28715)
+[2016-06-11 16:12:00 +0000] [28715] [INFO] Using worker: sync
+[2016-06-11 16:12:00 +0000] [28732] [INFO] Booting worker with pid: 28732
+[2016-06-11 16:12:00 +0000] [28733] [INFO] Booting worker with pid: 28733
+[2016-06-11 16:12:00 +0000] [28735] [INFO] Booting worker with pid: 28735
+[2016-06-11 16:12:00 +0000] [28738] [INFO] Booting worker with pid: 28738
+[2016-06-11 17:09:09 +0000] [1424] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 17:09:09 +0000] [1424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:09:09 +0000] [1424] [ERROR] Retrying in 1 second.
+[2016-06-11 17:09:10 +0000] [1424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:09:10 +0000] [1424] [ERROR] Retrying in 1 second.
+[2016-06-11 17:09:11 +0000] [1424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:09:11 +0000] [1424] [ERROR] Retrying in 1 second.
+[2016-06-11 17:09:12 +0000] [1424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:09:12 +0000] [1424] [ERROR] Retrying in 1 second.
+[2016-06-11 17:09:13 +0000] [1424] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:09:13 +0000] [1424] [ERROR] Retrying in 1 second.
+[2016-06-11 17:09:14 +0000] [1424] [ERROR] Can't connect to ('0.0.0.0', 8011)
+[2016-06-11 17:36:05 +0000] [4028] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 17:36:05 +0000] [4028] [INFO] Listening at: http://0.0.0.0:8011 (4028)
+[2016-06-11 17:36:05 +0000] [4028] [INFO] Using worker: sync
+[2016-06-11 17:36:05 +0000] [4045] [INFO] Booting worker with pid: 4045
+[2016-06-11 17:36:05 +0000] [4046] [INFO] Booting worker with pid: 4046
+[2016-06-11 17:36:05 +0000] [4055] [INFO] Booting worker with pid: 4055
+[2016-06-11 17:36:05 +0000] [4063] [INFO] Booting worker with pid: 4063
+[2016-06-11 17:58:22 +0000] [6086] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 17:58:22 +0000] [6086] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:58:22 +0000] [6086] [ERROR] Retrying in 1 second.
+[2016-06-11 17:58:23 +0000] [6086] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:58:23 +0000] [6086] [ERROR] Retrying in 1 second.
+[2016-06-11 17:58:24 +0000] [6086] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:58:24 +0000] [6086] [ERROR] Retrying in 1 second.
+[2016-06-11 17:58:25 +0000] [6086] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:58:25 +0000] [6086] [ERROR] Retrying in 1 second.
+[2016-06-11 17:58:26 +0000] [6086] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 17:58:26 +0000] [6086] [ERROR] Retrying in 1 second.
+[2016-06-11 17:58:27 +0000] [6086] [ERROR] Can't connect to ('0.0.0.0', 8011)
+[2016-06-11 18:41:50 +0000] [9556] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 18:41:50 +0000] [9556] [INFO] Listening at: http://0.0.0.0:8011 (9556)
+[2016-06-11 18:41:50 +0000] [9556] [INFO] Using worker: sync
+[2016-06-11 18:41:50 +0000] [9574] [INFO] Booting worker with pid: 9574
+[2016-06-11 18:41:50 +0000] [9577] [INFO] Booting worker with pid: 9577
+[2016-06-11 18:41:50 +0000] [9578] [INFO] Booting worker with pid: 9578
+[2016-06-11 18:41:50 +0000] [9583] [INFO] Booting worker with pid: 9583
+[2016-06-11 18:42:33 +0000] [9701] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 18:42:33 +0000] [9701] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:42:33 +0000] [9701] [ERROR] Retrying in 1 second.
+[2016-06-11 18:42:34 +0000] [9701] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:42:34 +0000] [9701] [ERROR] Retrying in 1 second.
+[2016-06-11 18:42:35 +0000] [9701] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:42:35 +0000] [9701] [ERROR] Retrying in 1 second.
+[2016-06-11 18:42:36 +0000] [9701] [INFO] Listening at: http://0.0.0.0:8011 (9701)
+[2016-06-11 18:42:36 +0000] [9701] [INFO] Using worker: sync
+[2016-06-11 18:42:36 +0000] [9740] [INFO] Booting worker with pid: 9740
+[2016-06-11 18:42:36 +0000] [9741] [INFO] Booting worker with pid: 9741
+[2016-06-11 18:42:36 +0000] [9744] [INFO] Booting worker with pid: 9744
+[2016-06-11 18:42:36 +0000] [9749] [INFO] Booting worker with pid: 9749
+[2016-06-11 18:45:54 +0000] [10080] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 18:45:54 +0000] [10080] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:45:54 +0000] [10080] [ERROR] Retrying in 1 second.
+[2016-06-11 18:45:55 +0000] [10080] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:45:55 +0000] [10080] [ERROR] Retrying in 1 second.
+[2016-06-11 18:45:56 +0000] [10080] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:45:56 +0000] [10080] [ERROR] Retrying in 1 second.
+[2016-06-11 18:45:57 +0000] [10080] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:45:57 +0000] [10080] [ERROR] Retrying in 1 second.
+[2016-06-11 18:45:58 +0000] [10080] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:45:58 +0000] [10080] [ERROR] Retrying in 1 second.
+[2016-06-11 18:45:59 +0000] [10080] [ERROR] Can't connect to ('0.0.0.0', 8011)
+[2016-06-11 18:46:05 +0000] [10133] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 18:46:05 +0000] [10133] [INFO] Listening at: http://0.0.0.0:8011 (10133)
+[2016-06-11 18:46:05 +0000] [10133] [INFO] Using worker: sync
+[2016-06-11 18:46:05 +0000] [10150] [INFO] Booting worker with pid: 10150
+[2016-06-11 18:46:05 +0000] [10151] [INFO] Booting worker with pid: 10151
+[2016-06-11 18:46:05 +0000] [10157] [INFO] Booting worker with pid: 10157
+[2016-06-11 18:46:05 +0000] [10160] [INFO] Booting worker with pid: 10160
+[2016-06-11 18:48:05 +0000] [10418] [INFO] Starting gunicorn 19.6.0
+[2016-06-11 18:48:05 +0000] [10418] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:48:05 +0000] [10418] [ERROR] Retrying in 1 second.
+[2016-06-11 18:48:06 +0000] [10418] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:48:06 +0000] [10418] [ERROR] Retrying in 1 second.
+[2016-06-11 18:48:07 +0000] [10418] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:48:07 +0000] [10418] [ERROR] Retrying in 1 second.
+[2016-06-11 18:48:08 +0000] [10418] [ERROR] Connection in use: ('0.0.0.0', 8011)
+[2016-06-11 18:48:08 +0000] [10418] [ERROR] Retrying in 1 second.
+[2016-06-11 18:48:09 +0000] [10418] [INFO] Listening at: http://0.0.0.0:8011 (10418)
+[2016-06-11 18:48:09 +0000] [10418] [INFO] Using worker: sync
+[2016-06-11 18:48:09 +0000] [10451] [INFO] Booting worker with pid: 10451
+[2016-06-11 18:48:09 +0000] [10452] [INFO] Booting worker with pid: 10452
+[2016-06-11 18:48:09 +0000] [10457] [INFO] Booting worker with pid: 10457
+[2016-06-11 18:48:09 +0000] [10458] [INFO] Booting worker with pid: 10458

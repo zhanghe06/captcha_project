@@ -16,5 +16,6 @@ class Recognize(Resource):
     def get(self, img_url=None):
         """
         http://localhost:8012/recognize
+        http://localhost:8012/recognize/python
         """
         return {'hello': img_url if img_url is not None else 'world'}

@@ -55,18 +55,30 @@ class Token(object):
         # print binascii.b2a_hex(sk)
         return binascii.b2a_hex(sk)
 
-    @staticmethod
-    def create_token(md5_str):
+    def create_token(self):
         """
-        生成 token (基于md5)
+        生成 token (基于 uuid)
         """
-        hash_md5 = hashlib.md5()
-        hash_md5.update(md5_str)
-        # value = hash_md5.digest()
-        # print repr(value)  # 得到的是二进制的字符串
-        # print hash_md5.hexdigest()  # 得到的是一个十六进制的值
-        # print urlsafe_b64encode(value)  # 得到base64的值
-        return hash_md5.hexdigest()
+        from uuid import uuid1
+        from itsdangerous import TimestampSigner
+        s = TimestampSigner(self._sign_key)
+        return s.sign(str(uuid1()))
+
+    def check_token(self, token_sign):
+        """
+        校验 token, 返回解密后的 token
+        """
+        from itsdangerous import TimestampSigner, SignatureExpired, BadTimeSignature
+        s = TimestampSigner(self._sign_key)
+        try:
+            token = s.unsign(token_sign, max_age=60)  # 60秒过期
+            return {'success': token}
+        except SignatureExpired as e:
+            # 处理签名超时
+            return {'error': e.message}
+        except BadTimeSignature as e:
+            # 处理签名错误
+            return {'error': e.message}
 
     def add_item(self, key_id, item):
         """
